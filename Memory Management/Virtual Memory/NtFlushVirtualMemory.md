@@ -11,7 +11,7 @@
 NTSTATUS NtFlushVirtualMemory(
   IN HANDLE             ProcessHandle,
   IN OUT PVOID         *BaseAddress,
-  IN OUT PULONG         NumberOfBytesToFlush,
+  IN OUT PULONG         NumberOfBytesToFlush,  //Optional
   OUT PIO_STATUS_BLOCK  IoStatusBlock
 );
 ```
